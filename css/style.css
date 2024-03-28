@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > button {
+    width: 100px;
+    height: 20px;
+}
+
+main div {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nasaImg {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+main > div span {
+    display: flex;
+}
+
+main > div:last-child {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 5px 15px;
+}
+
+footer > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
